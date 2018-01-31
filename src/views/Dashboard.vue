@@ -1,11 +1,17 @@
 <template>
   <div class="animated fadeIn">
-    <p class="text-info">Hello World</p>
+    <dashboard-noots />
   </div>
 </template>
 
 <script>
+import DashboardNoots from './Dashboard/DashboardNoots';
+
 export default {
-  name: 'Dashboard'
+  name: 'Dashboard',
+
+  components: {
+    DashboardNoots,
+  },
 }
 </script>
